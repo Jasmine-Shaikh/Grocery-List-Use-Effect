@@ -1,0 +1,29 @@
+{
+  "groceryList": [
+    {
+      "id": "7c1c0d02-5682-44db-99a2-f1a3fb6339cb",
+      "name": "Egg",
+      "status": false
+    },
+    {
+      "id": "60a63056-9f95-4931-85d1-3572c7db910c",
+      "name": "Curd",
+      "status": false
+    },
+    {
+      "id": "9d7e62a4-99f3-4853-a774-35db939963e8",
+      "name": "Apples",
+      "status": false
+    },
+    {
+      "id": "5a98c07f-38d2-4d09-825c-0cc174b19515",
+      "name": "Mangoes",
+      "status": false
+    },
+    {
+      "id": "c75745ec-2a3e-4a88-859a-d25563309ea3",
+      "name": "Chocolates",
+      "status": false
+    }
+  ]
+}
