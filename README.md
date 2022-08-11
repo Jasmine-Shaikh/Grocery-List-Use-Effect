@@ -1,4 +1,4 @@
-# Grocery List 
+# Grocery List - Using React useEffect
 
 An application where you can manage your grocery item list using the add and delete feature.
 
