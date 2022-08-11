@@ -1,6 +1,6 @@
 # Grocery List 
 
-An application where you can manage your grocery item list using the providing add and delete feature.
+An application where you can manage your grocery item list using the add and delete feature.
 
 <img src="https://github.com/Jasmine-Shaikh/Grocery-List-Use-Effect/blob/master/grocerylist.PNG"/>
 
