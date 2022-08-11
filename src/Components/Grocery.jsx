@@ -11,7 +11,7 @@ export default function Grocery(){
     const [end,setEndPage] = React.useState();
     const fetchData = async () => {
         try {
-        let res = await fetch(`http://localhost:3000/groceryList?_page=${page}&_limit=4`);
+        let res = await fetch(`http://localhost:8080/groceryList?_page=${page}&_limit=4`);
         let data = await res.json();
         setGroceryList(data);
         for(var i of res.headers.entries()){
@@ -35,7 +35,7 @@ export default function Grocery(){
 
         try {
             
-           await fetch(`http://localhost:3000/groceryList`,
+           await fetch(`http://localhost:8080/groceryList`,
             {
                 method: "POST",
                 body: JSON.stringify(payload),
@@ -52,7 +52,7 @@ export default function Grocery(){
 
     const DeleteItem = async (itemId) => {
        try {
-        await fetch(`http://localhost:3000/groceryList/${itemId}`,
+        await fetch(`http://localhost:8080/groceryList/${itemId}`,
         {
             method: "DELETE"
         })
